@@ -1,12 +1,15 @@
 /*CSS reset settings here*/
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    height: auto;
    }
    #wrapper{
     width: 950px;
     background-color: silver;
-    margin: 0px auto;
+    margin: 5px auto;
    }
    #header{
     min-height: 150px;
@@ -21,15 +24,21 @@
     min-height: 400px;
     width: 700px;
     background-color: red;
+    
+    float: right;
    }
    .subcontents{
     min-height: 200px;
     width: 210px;
     background-color: yellow;
+    display: inline-block;
+    float: none;
    }
    #advertisement{
     min-height: 120px;
     width: 660px;
     background-color: purple;
    }
-   
+   #navigation, #main_contens{
+       float: left;
+   }
